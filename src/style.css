@@ -1,0 +1,41 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #ff0000;
+}
+
+button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+span {
+  font-size: 24px;
+  margin: 0 5px;
+}
+
+p {
+  font-size: 20px;
+}
